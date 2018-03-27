@@ -1,0 +1,25 @@
+{
+  "name": "web-dev-final",
+  "version": "1.0.0",
+  "description": "Web Dev Final",
+  "main": "login.js",
+  "dependencies": {
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.12",
+    "npm": "^5.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakotaH1ll/Web-Dev-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DakotaH1ll/Web-Dev-Final/issues"
+  },
+  "homepage": "https://github.com/DakotaH1ll/Web-Dev-Final#readme"
+}
