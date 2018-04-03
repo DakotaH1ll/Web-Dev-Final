@@ -35,6 +35,22 @@ app.use(bodyParser.json());
     secret: 'apollo slackware prepositional expectations'
   }));
 
+
+  // database schema
+  var Schema = mongoose.Schema;
+  var studentSchema = new Schema({
+    sid: {type: String,
+          validate: [/^1[0-9]{8}$/, 'must be 9 digits'],
+          unique: true,
+          index: true},
+          hashedPassword: String
+}, {collection: 'students'});
+  var Student = mongoose.model('student', studentSchema);
+
+
+
+
+
 //function logIn() {
 
   //if ( $("#studentID").val() == "100523538" && $("#password").val() == "110295"){
