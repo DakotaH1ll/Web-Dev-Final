@@ -10,6 +10,7 @@
 
 
 function calculate() {
+
   var total = 0;
   //for (i = 0; i < rows; i++){
   total += (document.getElementById('11').value * 0.01)*(document.getElementById('12').value * 0.01);
