@@ -1,8 +1,6 @@
 
 
   $(document).ready(function(){
-    title = document.getElementById('classTitle');
-    title.innerHTML = ("<b>Here Are Your Grades</b>")
     $('#calculate').on('click',calculate)
 
 

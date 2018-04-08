@@ -7,6 +7,11 @@
   padding: 10px;
 } */
 
+img {
+  height: 100px;
+  width: auto;
+}
+
 p {
   background-color: lightBlue;
   text-align: center;
@@ -17,7 +22,7 @@ p {
 }
 
 #header{
-  background-color: #181818;
+  background-color: #a3abb7;
 }
 
 #pageTitle{
