@@ -7,7 +7,8 @@
 function logIn() {
 
   if ( $("#studentID").val() == "100523538" && $("#password").val() == "100523538"){
-  console.log("Login Successful");
   window.location = "classes.html"; // Redirecting to other page.
-  }
+} else {
+  alert("Incorrect Password Or Username, Please Try Again")
+}
 }
