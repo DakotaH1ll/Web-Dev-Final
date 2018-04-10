@@ -19,7 +19,7 @@ function logIn() {
 
 function downloadMap(){
   var mapOptions = {
-    center: { lat: 43.9459, lng: 78.8967},
+    center: { lat: 43.9459, lng: -78.8967},
     zoom: 8
 };
 var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -31,7 +31,7 @@ function downloadWeather(){
   var longitude = $('#lon').val();
 
 
-  var url = 'http://api.apixu.com/v1/forecast.json?key=0c4d4e086108490d8b733747180603&q=43.9459,78.8967+&days=7'
+  var url = 'http://api.apixu.com/v1/forecast.json?key=0c4d4e086108490d8b733747180603&q=43.9459,-78.8967+&days=7'
 
       $.getJSON(url, function(data) {
         var current = data.current.temp_c;
