@@ -1,0 +1,60 @@
+/* #form {
+  background-color: lightBlue;
+  text-align: center;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+  padding: 10px;
+} */
+
+img {
+  height: 100px;
+  width: auto;
+}
+
+/* p {
+  background-color: lightBlue;
+  text-align: center;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+  padding: 10px;
+} */
+
+
+
+#header{
+  background-color: #1a1a1a;
+}
+
+#pageTitle{
+  color: white;
+}
+
+#header form{
+  float:right;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: transparent;
+}
+
+#header form label{
+  margin-right: 3px;
+  margin-left: 3px;
+  color: white;
+}
+
+#loginBtn{
+  margin-left: 3px;
+  color: white;
+}
+
+#signUpModal .modal-header{
+  background-color: #1a1a1a;
+  color: white;
+}
+
+
+#signUpModal .modal-header button{
+  color: white;
+}
