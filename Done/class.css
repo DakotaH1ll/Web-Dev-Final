@@ -1,0 +1,12 @@
+p {
+  background-color: lightBlue;
+  text-align: center;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+  padding: 10px;
+}
+
+button {
+  padding: 3em;
+}
