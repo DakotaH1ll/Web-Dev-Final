@@ -10,12 +10,27 @@ button to save the data to the databse, as well as show their current grade at t
 The idea was that students could set this up at the begeinning of the semester and add to it as they
 get new grades back, allowing them to see their grade rise as the semester goes on.
 
-We have included two file structures in the submission. The first one, titled 'Done' is our proof of concept,
+We have included two file structures in the submission. The first one, titled 'Final' is our proof of concept,
 featuring HTML pages for all the desired features, as well as css and working javascript, with features
 including AJAX, jQuery, BootStrap and more. Featuring a working grade calculator on 'class.html'.
 
-To use this site, open 'login.html' and sign in using 100523538 as both the username and password. 
+To use this site, open 'login.html' and sign in using 100518916 as username and 123 as password.
+There is also a create account link which allows you to enter information but unfortunetly since we could not get Node.js and mongodb working
+it does not save the info
 
-Also included is 'Good' which features the work we completed using additional features like Node.js
-and MongoDB, but based on the folder name, it was not completed in time to be fully functional.
-I attempted to change this folder name to 'Not Done' but it continued to give me errors, I apologize for any confusion.
+Also included is 'Bad' which features work that we were working on using additional features like Node.js
+and MongoDB, but it was not completed in time to be fully functional.
+
+
+______________________________________________________________________________________________
+Run:
+
+In order to run this you have to have a http server running or use an html previewer in atom or something similar(google chrome wont let u access the xml file otherwise and u cant login then)
+
+open terminal in linux and type sudo npm install http-server -g
+and then go to the final folder and type http-server
+
+than open browser and type localhost:8080
+
+select login.html
+_________________________________________________________________________________________________
