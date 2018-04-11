@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Student Helper</title>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnXJPAvKwoIrdzapzVSrnYJ58hHxL29wA"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script type="text/javascript" src="classes.js"></script>
-  <link rel="stylesheet" href="classes.css" />
+
+  <script type="text/javascript" src="map.js"></script>
+  <link rel="stylesheet" href="map.css" />
 </head>
 
 <body>
@@ -41,16 +43,8 @@
       </nav>
     </div>
   </div>
-  <p><b>Please Select The Class You Would Like To See:</b></p>
 
-  <div id="classesForm">
-    <ul><button id="class1">MATH 2072U - Computational Science 1</button></ul>
-    <ul><button id="class2">CSCI 4220U - Computer Vision</button></ul>
-    <ul><button id="class3">CSCI 3230U - Web Application Development</button></ul>
-    <ul><button id="class4">CSCI 4030U - Big Data Analytics</button></ul>
-    <ul><button id="class5">CSCI 4210 - Information Visualization</button></ul>
-
-  </div>
+  <div id="map-canvas"></div>
 </body>
 
 </html>

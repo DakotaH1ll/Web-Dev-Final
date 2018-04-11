@@ -32,11 +32,6 @@ img {
   color: white;
 }
 
-#signUpModal .modal-header{
-  background-color: #1a1a1a;
-  color: white;
-}
-
-#signUpModal .modal-header button{
-  color: white;
+#map-canvas{
+  height: 500px;
 }

@@ -1,28 +1,13 @@
-/* #form {
-  background-color: lightBlue;
-  text-align: center;
-  border-style: solid;
-  border-radius: 3px;
-  border-width: 2px;
-  padding: 10px;
-} */
+
 
 img {
   height: 100px;
   width: auto;
 }
 
-p {
-  background-color: lightBlue;
-  text-align: center;
-  border-style: solid;
-  border-radius: 3px;
-  border-width: 2px;
-  padding: 10px;
-}
 
 #header{
-  background-color: #a3abb7;
+  background-color: #1a1a1a;
 }
 
 #pageTitle{
@@ -44,5 +29,14 @@ p {
 
 #loginBtn{
   margin-left: 3px;
+  color: white;
+}
+
+#signUpModal .modal-header{
+  background-color: #1a1a1a;
+  color: white;
+}
+
+#signUpModal .modal-header button{
   color: white;
 }
